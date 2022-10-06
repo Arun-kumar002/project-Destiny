@@ -1,0 +1,34 @@
+const{Schema,model}=require('mongoose')
+let miniGuideSchema=new Schema({
+    place:{
+        type:String
+    },
+    pictures:{
+        type:String,
+        contentType:String,
+        data:Buffer
+    },
+    description:{
+        type:String
+    },
+    pic1:{
+        type:String
+    },
+    pic2:{
+        type:String
+    },
+    pic3:{
+        type:String
+    },
+    pic4:{
+        type:String
+    },
+    pic5:{
+        type:String
+    },
+    pic6:{
+        type:String
+    }
+});
+
+module.exports=model('miniguide',miniGuideSchema)

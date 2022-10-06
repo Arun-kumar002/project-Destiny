@@ -1,0 +1,747 @@
+:root {
+  --bg-color: #fff;
+  --font-color: #333;
+  --nav-background: #316879;
+  --color-1: #f47a60;
+  --color-2: #7fe7dc;
+}
+
+/* !register section starts here */
+
+#registerPage {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.495);
+  /* background-color: antiquewhite; */
+  /* background-color:#efefef */
+}
+
+
+#registerPage>.top {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444444;
+  color: white;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#registerPage>.bottom {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* border: 2px solid orange; */
+}
+
+#registerPage>.bottom>.right {
+  flex: 55%;
+  background-color: white;
+}
+
+#registerPage>.bottom>.right>form {
+  width: inherit;
+  /* border-radius: 10px; */
+  /* width: 500px; */
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  color: #ffae00;
+  background-color: white;
+  border: 3px solid #efefef;
+}
+
+#registerPage>.bottom>.right>form>div {
+  width: 90%;
+  height: 24px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-radius: 5px;
+}
+
+
+#registerPage>.bottom>.right>form>div > button
+{
+  transform: translate(0px,-27px);
+}
+
+#registerPage > .bottom > .right > form > div > button{
+  width: 250px;
+  height: 35px;
+  transition: ease-out 0.3s;
+  outline:none;
+  border:3px solid #001f3f;
+  position: relative;
+  z-index: 1;
+  border-radius: 2px;
+  /* transform: translateY(); */
+  }
+
+  #registerPage > .bottom > .right > form > div > button:hover {
+    color:#ffff;
+    cursor: pointer;
+    /* background-color: #444444; */
+  }
+  
+  #registerPage > .bottom > .right > form > div > button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top:0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #444444;
+  }
+  
+  #registerPage > .bottom > .right > form > div > button:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+
+
+#registerPage>.bottom>.right>form>div>input {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+
+}
+
+::placeholder {
+  color: black !important;
+}
+
+#registerPage>.bottom>.left {
+  flex-basis: 45%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  background-color: #efefef;
+  /* box-shadow: #efefef; */
+}
+
+#registerPage>.marquee {
+  width: 500px;
+  height: 40px;
+  background-color: #444444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+#registerPage>.marquee>marquee>p {
+  
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/*! register section ends here */
+
+
+
+
+
+/* !login page section starts here */
+
+#loginPage {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.495);
+  /* background-color: antiquewhite; */
+  /* background-color:#efefef */
+}
+
+#loginPage>.top {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444444;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#loginPage>.bottom {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* border: 2px solid orange; */
+}
+
+#loginPage>.bottom>.right {
+  flex: 55%;
+  background-color: white;
+}
+
+#loginPage>.bottom>.right>form {
+  width: inherit;
+  /* border-radius: 10px; */
+  /* width: 500px; */
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  color: #ffae00;
+  background-color: white;
+  border: 3px solid #efefef;
+
+}
+#loginPage>.bottom>.right>form>div {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+ 
+}
+
+#loginPage>.bottom>.right>form>div:nth-child(2) {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-radius: 5px;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+#loginPage>.bottom>.right>form>div:nth-child(2) > a
+{
+  margin-top: 10px;
+font-size: 15px;
+color: coral;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#loginPage>.bottom>.right>form>div:nth-child(2) > p>a
+{
+font-size: 15px;
+color: coral;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#loginPage>.bottom>.right>form>div>input {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: start;
+
+}
+
+::placeholder {
+  color: black !important;
+}
+
+#loginPage>.bottom>.left {
+  flex-basis: 45%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #efefef;
+}
+
+#loginPage>.marquee {
+  width: 500px;
+  height: 40px;
+  background-color: #444444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#loginPage>.marquee>marquee>p {
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* responsive */
+@media screen and (min-width:500px) and (max-width:1000px) {
+
+  /* login starts */
+  #loginPage {
+    /* background-color: red; */
+  }
+
+  #loginPage>.top {
+    height: 40px;
+    width: 448px;
+  }
+
+  #loginPage>.bottom {
+    width: 350px;
+
+  }
+
+  #loginPage>.bottom>.right {
+    flex: 55%;
+  }
+
+  #loginPage>.bottom>.right>form {
+    width: inherit;
+
+  }
+
+  #loginPage>.bottom>.right>form>div {
+    width: 90%;
+  }
+
+  #loginPage>.bottom>.right>form>div>input {
+    width: 100%;
+    height: 30px;
+
+  }
+
+  ::placeholder {}
+
+  #loginPage>.bottom>.left {
+    flex-basis: 45%;
+
+  }
+
+  #loginPage>.marquee {
+    width: 448px;
+  }
+
+  #loginPage>.marquee>marquee>p {
+    width: inherit;
+  }
+
+  /* login ends */
+
+  /* register starts */
+
+  #registerPage {
+    /* background-color: red; */
+  }
+
+  #registerPage>.top {
+    height: 40px;
+    width: 448px;
+  }
+
+  #registerPage>.bottom {
+    width: 448px;
+
+  }
+
+  #registerPage>.bottom>.right {
+    flex: 55%;
+  }
+
+  #registerPage>.bottom>.right>form {
+    width: inherit;
+
+  }
+
+  #registerPage>.bottom>.right>form>div {
+    width: 90%;
+  }
+
+  #registerPage>.bottom>.right>form>div>input {
+    width: 100%;
+    height: 30px;
+
+  }
+
+  ::placeholder {}
+
+  #registerPage>.bottom>.left {
+    flex-basis: 45%;
+
+  }
+
+  #registerPage>.marquee {
+    width: 448px;
+  }
+
+  #registerPage>.marquee>marquee>p {
+    width: inherit;
+  }
+
+  /* register ends */
+
+  /* navbar starts */
+  .right_side_block>a:nth-child(2),
+  a:nth-child(4),
+  a:nth-child(5),
+  a:nth-child(7) {
+    display: none;
+  }
+
+  /* navbar ends */
+}
+
+@media screen and (min-width:0px) and (max-width:500px) {
+  #loginPage {
+    overflow-x: hidden;
+    /* background-color:green; */
+    width: 100%;
+  }
+
+  #loginPage>.top {
+    height: 40px;
+    width: 247px;
+  }
+
+  #loginPage>.bottom {
+    width: 247px;
+
+  }
+
+  #loginPage>.bottom>.right {
+    flex: 100%;
+  }
+
+  #loginPage>.bottom>.right>form {
+    width: inherit;
+
+  }
+
+  #loginPage>.bottom>.right>form>div {
+    width: 90%;
+  }
+
+  #loginPage>.bottom>.right>form>div>input {
+    width: 100%;
+    height: 30px;
+
+  }
+
+  ::placeholder {}
+
+  #loginPage>.bottom>.left {
+    display: none;
+    flex-basis: 45%;
+
+  }
+
+  #loginPage>.marquee {
+    width: 247px;
+  }
+
+  #loginPage>.marquee>marquee>p {
+    width: inherit;
+  }
+
+
+  /* register page starts */
+  #registerPage {
+    overflow-x: hidden;
+    /* background-color:green; */
+    width: 100%;
+  }
+
+  #registerPage>.top {
+    height: 40px;
+    width: 247px;
+  }
+
+  #registerPage>.bottom {
+    width: 247px;
+
+  }
+
+  #registerPage>.bottom>.right {
+    flex: 100%;
+  }
+
+  #registerPage>.bottom>.right>form {
+    width: inherit;
+
+  }
+
+  #registerPage>.bottom>.right>form>div {
+    width: 90%;
+  }
+
+  #registerPage>.bottom>.right>form>div>input {
+    width: 100%;
+    height: 30px;
+
+  }
+
+  ::placeholder {}
+
+  #registerPage>.bottom>.left {
+    display: none;
+    flex-basis: 45%;
+
+  }
+
+  #registerPage>.marquee {
+    width: 247px;
+  }
+
+  #registerPage>.marquee>marquee>p {
+    width: inherit;
+  }
+
+  /* register page ends */
+
+
+  /* navbar starts */
+
+  .right_side_block>a {
+    display: none;
+  }
+
+  .right_side_block>a:nth-child(8) {
+    display: block;
+  }
+
+  #navbar_block>article>.right_side_block {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* navbar ends */
+}
+
+
+/* animation part starts*/
+@keyframes bgcolor {
+  0% {
+    background-color: #666;
+
+  }
+
+  25% {
+    background-color: #333;
+  }
+
+  50% {
+    background-color: #4444;
+  }
+
+  75% {
+    background-color: #316879;
+  }
+
+  100% {
+    background-color: #5d89ba;
+  }
+}
+
+#loginPage, #registerPage {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+/* animation part ends */
+
+
+/* !login page section ends here */
+
+
+
+#loginPage {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.495);
+  /* background-color: antiquewhite; */
+  /* background-color:#efefef */
+}
+
+
+#loginPage>.top {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444444;
+  color: white;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#loginPage>.bottom {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* border: 2px solid orange; */
+}
+
+#loginPage>.bottom>.right {
+  flex: 55%;
+  background-color: white;
+}
+
+#loginPage>.bottom>.right>form {
+  width: inherit;
+  /* border-radius: 10px; */
+  /* width: 500px; */
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  color: #ffae00;
+  background-color: white;
+  border: 3px solid #efefef;
+
+}
+
+#loginPage>.bottom>.right>form>div {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-radius: 5px;
+}
+
+#loginPage>.bottom>.right>form>div > button
+{
+  transform: translate(0px,-27px);
+}
+
+#loginPage > .bottom > .right > form > div > button{
+  width: 250px;
+  height: 35px;
+  transition: ease-out 0.3s;
+  outline:none;
+  border:3px solid #001f3f;
+  position: relative;
+  z-index: 1;
+  border-radius: 2px;
+  /* transform: translateY(); */
+  }
+  #loginPage > .bottom > .right > form > div > button:hover {
+    color:#ffff;
+    cursor: pointer;
+    /* background-color: #444444; */
+  }
+  
+  #loginPage > .bottom > .right > form > div > button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top:0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #444444;
+  }
+  
+  #loginPage > .bottom > .right > form > div > button:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+
+
+#loginPage>.bottom>.right>form>div>input {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+
+}
+
+::placeholder {
+  color: black !important;
+}
+
+#loginPage>.bottom>.left {
+  flex-basis: 45%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  background-color: #efefef;
+  /* box-shadow: #efefef; */
+}
+
+#loginPage>.marquee {
+  width: 500px;
+  height: 40px;
+  background-color: #444444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+#loginPage>.marquee>marquee>p {
+  
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

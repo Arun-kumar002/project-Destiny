@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "62f5a724321b1a582bc3f489"
+  },
+  "place": "Bangalore",
+  "pictures": "http://res.cloudinary.com/tyss/image/upload/v1660266265/miniguide/x2tzkdzy3zgxniwmb908.webp",
+  "description": "Bangalore, also known as Bengaluru, is popular as India's IT hub, earning it the moniker of the \"Silicon Valley of India\". The capital of Karnataka,Bangalore is India's third most populous city and is an important economic and cultural hub of Karnataka. Ruled by many historical dynasties, including the Vijayanagara and the British Empires,Bangalore is rich in history and culture and there is much to see and do around the city.",
+  "pic1": "http://res.cloudinary.com/tyss/image/upload/v1660266267/miniguide/gkqclpd0nlrdvym7qxtr.jpg",
+  "pic2": "http://res.cloudinary.com/tyss/image/upload/v1660266269/miniguide/akstezucrmygtbeh829v.webp",
+  "pic3": "http://res.cloudinary.com/tyss/image/upload/v1660266271/miniguide/nddq0y9bqrcx7hmtbtgj.jpg",
+  "pic4": "http://res.cloudinary.com/tyss/image/upload/v1660266272/miniguide/ouqbb1iixdo3xzgvtabh.jpg",
+  "pic5": "http://res.cloudinary.com/tyss/image/upload/v1660266274/miniguide/ylehgta0sk0l5s2nvvwm.jpg",
+  "pic6": "http://res.cloudinary.com/tyss/image/upload/v1660266276/miniguide/m207xfju6enqxkjpu6it.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f5a970321b1a582bc3f48d"
+  },
+  "place": "Kerala",
+  "pictures": "http://res.cloudinary.com/tyss/image/upload/v1660266853/miniguide/y10nxpjihoftpzuf8qxk.jpg",
+  "description": "Kerala, the land of God, has plenty of cool things to do that you must not miss out on! Here’s a guide for Kerala tour package especially for the first-timers who want to see some of Kerala’s best attractions plus several other tips to support you on your journey. Stretching along the south-western corner of India along the tropical Malabar Coast, boasting everything from vast beaches and picturesque backwaters to exotic nature and rich heritage, Kerala is without question one of India’s most beautiful states. Thanks to its scenic beauty and loads of activities available, Kerala has been a popular place for travelers since a very long time.",
+  "pic1": "http://res.cloudinary.com/tyss/image/upload/v1660266855/miniguide/nlkmxqqilfjeansezhmi.jpg",
+  "pic2": "http://res.cloudinary.com/tyss/image/upload/v1660266856/miniguide/qr6by2bzsv1a1nenawhp.jpg",
+  "pic3": "http://res.cloudinary.com/tyss/image/upload/v1660266858/miniguide/alr8wtwwhte4xyb9h0ga.jpg",
+  "pic4": "http://res.cloudinary.com/tyss/image/upload/v1660266860/miniguide/rzxslx8yr4zu23xilkeb.jpg",
+  "pic5": "http://res.cloudinary.com/tyss/image/upload/v1660266861/miniguide/tgsjlbt6tdxrqjmetpgk.jpg",
+  "pic6": "http://res.cloudinary.com/tyss/image/upload/v1660266863/miniguide/iznqhr4jw4ohjtlxhczm.webp",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f5aa2c321b1a582bc3f48f"
+  },
+  "place": "Tamilnadu",
+  "pictures": "http://res.cloudinary.com/tyss/image/upload/v1660267041/miniguide/njs4dyfwaly7ir2qimwt.jpg",
+  "description": "Tamil Nadu has rightly earned the title “The Land of Temples”. More than 30,000 temples bear the character and distinct style belonging to different dynasties.The common feature that runs through them is the outward appearance and close resemblance owing to one common feature.",
+  "pic1": "http://res.cloudinary.com/tyss/image/upload/v1660267042/miniguide/xf1dsgr3nbszbofjilbo.jpg",
+  "pic2": "http://res.cloudinary.com/tyss/image/upload/v1660267044/miniguide/o9ejaqtjs9gfuz1wkxka.webp",
+  "pic3": "http://res.cloudinary.com/tyss/image/upload/v1660267046/miniguide/vtflr87yupnb8mfamag7.jpg",
+  "pic4": "http://res.cloudinary.com/tyss/image/upload/v1660267047/miniguide/r0sojqql05l7u0erohya.jpg",
+  "pic5": "http://res.cloudinary.com/tyss/image/upload/v1660267049/miniguide/g4nmpktv42l2qjlgknu5.jpg",
+  "pic6": "http://res.cloudinary.com/tyss/image/upload/v1660267051/miniguide/useypkjavhnbuwaxyznq.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f5aae9321b1a582bc3f491"
+  },
+  "place": "Manali",
+  "pictures": "http://res.cloudinary.com/tyss/image/upload/v1660267230/miniguide/zvyaqliuq7bqgqqlmevf.jpg",
+  "description": "One of the most popular hill stations in Himachal, Manali offers the most magnificent views of the Pir Panjal and the Dhauladhar ranges covered with snow for most parts of the year. ",
+  "pic1": "http://res.cloudinary.com/tyss/image/upload/v1660267232/miniguide/wm2p2qe0alvgc9mitd8m.jpg",
+  "pic2": "http://res.cloudinary.com/tyss/image/upload/v1660267234/miniguide/jb29v1x6xbna4d9cnuk7.jpg",
+  "pic3": "http://res.cloudinary.com/tyss/image/upload/v1660267236/miniguide/nvgxmtrgctx1hpj4hk9m.jpg",
+  "pic4": "http://res.cloudinary.com/tyss/image/upload/v1660267238/miniguide/dfy5eevaw07apn6xwmub.jpg",
+  "pic5": "http://res.cloudinary.com/tyss/image/upload/v1660267239/miniguide/ml42clfzrptca5zqa78w.jpg",
+  "pic6": "http://res.cloudinary.com/tyss/image/upload/v1660267241/miniguide/wrcautkb9udecwy8llea.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f5ab75321b1a582bc3f493"
+  },
+  "place": "Jaipur",
+  "pictures": "http://res.cloudinary.com/tyss/image/upload/v1660267355/miniguide/f9ludd1jyuqmbzc6fdk2.jpg",
+  "description": "Also called the Pink City, Jaipur is the capital of the royal state of Rajasthan. Along with Delhi and Agra, Jaipur forms the Golden Triangle and hails as one of the most famous tourist circuits in the country.",
+  "pic1": "http://res.cloudinary.com/tyss/image/upload/v1660267358/miniguide/aefmttw1vtz1josompvu.jpg",
+  "pic2": "http://res.cloudinary.com/tyss/image/upload/v1660267361/miniguide/xqsoxahtxf7xncpjipgt.jpg",
+  "pic3": "http://res.cloudinary.com/tyss/image/upload/v1660267364/miniguide/elrrt6udbzybteopcclf.jpg",
+  "pic4": "http://res.cloudinary.com/tyss/image/upload/v1660267366/miniguide/xhjp2kpnavlkicscezq7.jpg",
+  "pic5": "http://res.cloudinary.com/tyss/image/upload/v1660267378/miniguide/jqcuuro6riqljymfi0fr.jpg",
+  "pic6": "http://res.cloudinary.com/tyss/image/upload/v1660267381/miniguide/ywd77tedvpp348uf7gtw.jpg",
+  "__v": 0
+}]

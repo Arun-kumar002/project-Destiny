@@ -1,0 +1,24 @@
+<section id="statuspage">
+    <article>
+        <main>
+            <h2 class="staat">Email: <span>{{email}}</span></h2>
+            <h1 class="staat">Name: <span> {{username}}</span></h1>
+            <h3 class="staat">Mobile No: <span>{{mobile}}</span></h3>
+        </main>
+    </article>
+    <main>
+        {{#each udetails}}
+        <div>
+        <p>Booked Date: {{date}}</p>
+        <main>
+        <p>Seat Number : </p>
+        {{#each seatno}}
+            <p>{{0}}</p>,
+            <p>{{1}}</p>
+        {{/each}}
+        </main>
+        <p>Bus ID: {{seattravelid}}</p>
+        </div>
+        {{/each}}
+    </main>
+</section>

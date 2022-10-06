@@ -1,0 +1,21 @@
+<section id="miniGuide" class="miniguide">
+     <div class="auto-typing">
+    <h1 class="autoTyping">
+    Here are the few places which you can visit in India</h1>
+    </div>
+          
+<article>  
+   
+        {{#each photos}}
+        <div id="guide-list">
+        {{!-- <div class="picture">Pictures</div> --}}
+        <a href="/user/{{_id}}"><img src="{{pictures}}" alt="photo" /></a>
+        <h2>{{place}}</h2>
+        </div>
+         {{/each}}
+
+</article>
+</section>
+
+
+	

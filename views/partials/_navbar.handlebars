@@ -1,0 +1,37 @@
+<section id="navbar_block">
+    <article>
+        <aside class="left_side_block">
+            <a href=""><img src="../../images/bus.png" alt=""></a>
+        </aside>
+        <aside class="right_side_block">
+            <a href="http://localhost:5000">Home</a>
+            <a href="http://localhost:5000/user/allphotos">Mini guidance</a>
+            {{#if user}}
+            <a href="http://localhost:5000/bus/bookings">Booking</a>
+            <a href="http://localhost:5000/bus/status">Status</a>
+            <a href="http://localhost:5000/user/logout">Logout</a>
+            {{else}}
+            <a href="http://localhost:5000/user/register">Register</a>
+            <a href="http://localhost:5000/user/login">Login</a>
+            {{/if}}
+            {{!-- <a href="" class="bar"><i class="fa-solid fa-bars"></i></a> --}}
+        </aside>
+    </article>
+</section>
+
+<section id="block">
+    <article>
+        <a href="http://localhost:5000">Home</a>
+        <a href="http://localhost:5000/user/allphotos">Mini guidance</a>
+        <a href="http://localhost:5000/bus/status">Status</a>
+        {{#if user}}
+        <a href="http://localhost:5000/bus/bookings">Booking</a>
+        <a href="http://localhost:5000/bus/status">Status</a>
+        <a href="http://localhost:5000/user/logout">Logout</a>
+        {{else}}
+        <a href="http://localhost:5000/user/register">Register</a>
+        <a href="http://localhost:5000/user/login">Login</a>
+        {{/if}}
+        <a href="http://localhost:5000/user/profile">User Page</a>
+    </article>
+</section>

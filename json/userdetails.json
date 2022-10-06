@@ -1,0 +1,149 @@
+[{
+  "_id": {
+    "$oid": "62f116b9048d66c5f28376a5"
+  },
+  "username": "hari",
+  "email": "hari@gmail.com",
+  "mobile": "7760960773",
+  "password": "$2a$12$.q88/BS1zjiUoHMKvT78f.mMhsRtefHCrzDozylef/hEoqLHuP.V6",
+  "udetails": [
+    {
+      "date": "2022-08-11",
+      "seatno": [
+        "1",
+        "6"
+      ],
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-12",
+      "seatno": [
+        "2",
+        "6"
+      ],
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-13",
+      "seatno": "1",
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-13",
+      "seatno": "2",
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-24",
+      "seatno": [
+        "1",
+        "2"
+      ],
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08",
+      "price": "20"
+    },
+    {
+      "date": "2022-08-18",
+      "seatno": [
+        "1",
+        "2"
+      ],
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08",
+      "price": "20"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1659967162374"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661399041247"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f35dc8babb617a80f01bef"
+  },
+  "username": "arunkumar",
+  "email": "arun@gmail.com",
+  "mobile": "8610159926",
+  "password": "$2a$12$kb0Y2FsZlw5lY2CBw1wBE.8mBaWyZy047xSXV.GjAx5wXVwYLqzFi",
+  "udetails": [
+    {
+      "date": "2022-08-11",
+      "seatno": [
+        "2",
+        "7"
+      ],
+      "useremail": "arun@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-12",
+      "seatno": [
+        "16",
+        "21"
+      ],
+      "useremail": "arun@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-09-05",
+      "seatno": [
+        "1",
+        "2"
+      ],
+      "useremail": "arun@gmail.com",
+      "seattravelid": "pbm08",
+      "price": "20"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660116433837"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662297233844"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f4f0db859e6d705c130add"
+  },
+  "username": "arunkumar",
+  "email": "dexter@gmail.com",
+  "mobile": "8610159926",
+  "password": "$2a$12$AxyFmrZfKn34vXMeNZypM.bQ/U0DO4RZqpcUvBb0n05HWjsZgOA66",
+  "udetails": [
+    {
+      "date": "2022-08-11",
+      "seatno": "1",
+      "useremail": "dexter@gmail.com",
+      "seattravelid": "pbm11",
+      "price": "10"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660219646760"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660220041537"
+    }
+  },
+  "__v": 0
+}]

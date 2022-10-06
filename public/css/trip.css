@@ -1,0 +1,381 @@
+/* common section section here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #fff;
+  --font-color: #333;
+  --nav-background: #316879;
+  --color-1: #f47a60;
+  --color-2: #7fe7dc;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* common section ends here */
+
+/* offers page section starts here */
+
+/* offers page section ends here */
+
+
+
+
+
+
+
+/* payment page section starts here */
+
+/* payment page section ends here */
+
+
+
+/* conformation page starts here */
+
+/* conformation page section ends here */
+
+
+
+/* status page starts here */
+
+/* starts page ends here */
+
+
+
+
+/* admin page starts here */
+/* select service section starts here */
+#admin_page_section {
+  width: 100%;
+  height: 30vh;
+
+}
+
+#admin_page_section>article {
+  width: 80%;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#admin_page_section>article>aside {
+  width: 55%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+#admin_page_section>article>aside>a {
+
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #444;
+  background: var(--color-2);
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#admin_page_section>article>aside>a:hover {
+  background: var(--nav-background);
+  color: #fff;
+}
+
+/* add user section starts here */
+.add_user_section {
+  width: 100%;
+  height: 100vh;
+
+}
+
+#hidden_input {
+  display: none;
+}
+
+.service {
+  text-align: center;
+  color: #001f3f;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+.add_user_section>article {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_user_section>article>form {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.add_user_section>article>form>div {
+  flex-basis: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #001f3f;
+  /* border-radius: 5px; */
+}
+
+.add_user_section>article>form>div>label {
+  color: #9df9ef;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.add_user_section>article>form>div>input {
+  padding: 7px 30px;
+  outline: none;
+  border-radius: 4px;
+  background-color:  transparent;
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid white;
+  /* box-shadow: 1px 1px 1px #fff; */
+}
+
+.add_user_section>article>form>div>input::placeholder{
+  color: white;
+  opacity: 0.5;
+}
+
+.add_user_section>article>form>div>input:focus{
+  border: white;
+  background-color: transparent;
+}
+
+.add_user_section>article>form>div>button {
+  border: none;
+  background: var(--color-2);
+  padding: 5px 68px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 700;
+  color: #f14ab1;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+.add_user_section>article>form>div>button:hover {
+  background: var(--nav-background);
+  color: #fd913c;
+}
+
+::placeholder {
+  font-style: italic;
+  text-transform: capitalize;
+  color: royalblue;
+  letter-spacing: 1px;
+}
+
+/* search service section  starts here*/
+.service_search_section {
+  width: 100%;
+  height: 300px;
+}
+
+.service_search_section>article {
+  width: 80%;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.service_search_section>article>form {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+  border: 2px solid #001f3f;
+}
+
+.service_search_section>article>form>div {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.service_search_section>article>form>div>h1 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: cursive;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+.service_search_section>article>form>div>label {
+  font-family: cursive;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: royalblue;
+}
+
+.service_search_section>article>form>div>input {
+  padding: 6px 25px;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px grey;
+}
+
+.service_search_section>article>form>div>button {
+  border: none;
+  background: var(--color-2);
+  padding: 5px 68px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: #f14ab1;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.service_search_section>article>form>div>button:hover {
+  background: var(--nav-background);
+  color: #fd913c;
+}
+
+/* search service ends here */
+/* payment section starts here */
+
+
+.container {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container form {
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.container form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.container form .row .col {
+  flex: 1 1 250px;
+}
+
+.container form .row .col .title {
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox {
+  margin: 15px 0;
+}
+
+.container form .row .col .inputBox span {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus {
+  border: 1px solid #000;
+}
+
+.container form .row .col .flex {
+  display: flex;
+  gap: 15px;
+}
+
+.container form .row .col .flex .inputBox {
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img {
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  background: #27ae60;
+  color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover {
+  background: #2ecc71;
+}
+
+/* payments section ends here */
+
+/* add user section ends here */
+/* select service secion ends here */
+/* add service section starts here */
+
+/* add service section ends here */
+/* admin page ends here */

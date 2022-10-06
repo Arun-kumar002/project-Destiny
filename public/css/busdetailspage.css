@@ -1,0 +1,251 @@
+:root {
+  --bg-color: #fff;
+  --font-color: #333;
+  --nav-background: #316879;
+  --color-1: #f47a60;
+  --color-2: #7fe7dc;
+}
+
+/* section 2 starts here */
+/* bookig page section starts here */
+
+
+#busClass{
+margin: 0 auto;
+/* background-color:#6187b478; */
+background-color: white;
+height: 400px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#busClass > article{
+width: 90%;
+height: inherit;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#busClass > article > aside{
+width: inherit;
+height: inherit;
+display: flex;
+justify-content:space-around;
+align-items: center;
+gap: 10px;
+/* background-color: #6187b478; */
+}
+
+#busClass > article > aside > div{
+/* background-color: #6187b478; */
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.333),rgba(0, 0, 0, 0.311)), url("../images/bus_photos/buswindow2.webp"); */
+background-image: url("../images/bus_photos/buswindow2.webp");
+/* background-color: #6187b478; */
+  background-size: cover;
+  background-repeat:no-repeat;
+  /* opacity: 0.5; */
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+#busClass > article > aside > div .premium{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+#busClass > article > aside > div .gold{
+  text-decoration: none;
+  color: black;
+  /* color:#998100; */
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+#busClass > article > aside > div .silver{
+  text-decoration: none;
+  color: black;
+  /* color:#5d89ba; */
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+/* booking page section ends here */
+
+/* busdetails page starts */
+
+#busDetail{
+width: 100%;
+height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#busDetail > article{
+width: 90%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+/* gap: 10px; */
+}
+#busDetail > article > .one{
+width: 90%;
+height: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+
+}
+#busDetail > article > .one > a > img{
+width: 350px;
+height: 300px;
+border: 5px solid silver;
+border-radius: 4px;
+}
+
+#busDetail > article > .one > a > img:hover{
+transform: scale(1.2);
+transition: ease all 2s;
+border: none;
+}
+
+/* #busDetail > article > marquee{
+height: 40px;
+width: 100%;
+} */
+
+#busDetail > article > marquee > p{
+font-size: 30px;
+
+}
+
+
+#busDetail > article > .two {
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 30px;
+/* font-size: 15px; */
+}
+#busDetail > article > .two > a{
+font-size: 25px;
+}
+
+#busDetail > article > .two > a{
+text-decoration: none;
+font-weight: 500;
+}
+
+
+
+/* busdetails page ends */
+
+
+  /* donation page starts here */
+  #donate_section{
+    width: 100%;
+    height: 35vh;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#donate_section > article{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#donate_section > article > aside:nth-child(1){
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    height: inherit;
+    gap: 10px;
+}
+#donate_section > article > aside:nth-child(1) > h1{
+    width: inherit;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: system-ui;
+    color: lightcoral;
+    margin-bottom: 20px;
+}
+#donate_section > article > aside:nth-child(1) > ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: inherit;
+    font-weight: 400;
+    /* gap: 5px; */
+    font-size: 17px;
+    /* font-weight: 500; */
+}
+
+#donate_section > article > aside:nth-child(1) > ul > li {
+  font-size: 15px;
+}
+#donate_section > article > aside:nth-child(1) > ul > li:hover{
+    color: #777;
+    cursor: pointer;
+}
+
+#donate_section > article > aside:nth-child(2){
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#donate_section > article > aside:nth-child(2) > img
+{
+    border-radius: 30px;
+}
+#donate_section > article > aside:nth-child(2) > a
+{
+    height: inherit;
+    width: inherit;
+    display: block;
+    background: lightcoral;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-family: monospace;
+    letter-spacing: 0.9px;
+    font-weight: 500;
+}
+#donate_section > article > aside:nth-child(2) > a:hover{
+    color: white;
+    background: royalblue;
+}
+
+  /* donation page ends here */
+  

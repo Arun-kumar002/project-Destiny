@@ -1,0 +1,110 @@
+{{!-- bg video block starts here --}}
+<section id="bg_video">
+  <article>
+    <video autoplay loop playinline muted>
+      <source src="../video/The Bus. From GO. The GO Bus..mp4">
+    </video>
+    <audio src="" style="visibility:hidden"></audio>
+    <div class="destiny">
+      <p>Destination Towards Your Destiny.... </p>
+      <button><a href="http://localhost:5000/bus/bookings">Book Now</a></button>
+    </div>
+
+  </article>
+</section>
+{{!-- bg video block ends here --}}
+{{!-- section discover new horizon starts here--}}
+<section id="discover">
+  <article>
+    <aside class="lft-side">
+      <figure>
+        <img src="../images/travel_HD.jpg" alt="">
+      </figure>
+      <div class="slider"></div>
+    </aside>
+    <aside class="rgt-side">
+      <h5>Discover new horizon</h5>
+      <h4>Our Mission</h4>
+      <p>Our mission is to provide the ultimate travel planning experience while becoming a one-stop shop for every
+        travel service available in the industry.</p>
+      <div class="btn">
+        <a href="http://localhost:5000/bus/bookings"><button>Book Now</button></a>
+        <a href="http://localhost:5000/user/allphotos"><button>Read More</button></a>
+      </div>
+    </aside>
+  </article>
+</section>
+{{!-- section discover new horizon ends here--}}
+
+{{!-- mini guide block starts here --}}
+<section id="miniGuide">
+  <h1 style="color:#111;">Visit the Amazing places in India</h1>
+  <article>
+    {{#each guidephotos}}
+    <div>
+      <a href='/user/{{_id}}'><img src="{{ pictures}}" alt="photo" /></a>
+      <h2>{{place}}</h2>
+    </div>
+    {{/each}}
+  </article>
+</section>
+
+{{!-- mini guide ends starts here --}}
+
+{{!-- footer block starts here --}}
+<section id="footer">
+  <article>
+
+    <aside class="lft-side">
+      <h5 class="heading1" id="heading">Contact us</h5>
+      <ul>
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+            Brigade MLR Centre, First Floor, Bengaluru
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> 08041204235</li>
+        <li><i class="fa-solid fa-envelope"></i> info@destiny.com</li>
+      </ul>
+    </aside>
+
+    <aside class="mid-block">
+      <h5 class="heading2">Popular News</h5>
+      <ul>
+        <li><a href="#">Your Personal Guide to 5 Best Places to Visit in India</a></li>
+        <li><a href="#">Top 10 Buses: Rating by Wonder Tour Travel Experts</a></li>
+        {{!-- <li><a href="#">Our top services</a></li> --}}
+        <li><a href="#">Know more</a></li>
+      </ul>
+    </aside>
+
+    <aside class="rght-side">
+      <h5 class="heading3">Quick links</h5>
+      <div>
+        <div class="about">
+          <a href="">About Us</a>
+          <a href="">Easy Bookings</a>
+        </div>
+        <div class="about">
+          <a href="">Short guidance</a>
+          <a href="">Our Services</a>
+        </div>
+      </div>
+      <button class="btn-footer">Get in touch</button>
+    </aside>
+  </article>
+</section>
+
+
+{{!-- footer block ends here --}}
+
+{{!-- copyright starts here --}}
+<section id="copyright">
+  <article>
+    <a href="">Condition of Use & Sale</a>
+    <a href="">Privacy Notice</a>
+    <a href="">Interest-Based</a>
+    <a href="">@7848349309,Destiny.com,Inc. or its affiliates</a>
+  </article>
+</section>
+{{!-- copyright ends here --}}

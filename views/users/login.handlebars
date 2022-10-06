@@ -1,0 +1,32 @@
+<section id="loginPage">
+    <article class="top">
+        <div>Login/Sign in</div>
+    </article>
+    <article class="bottom">
+        <aside class="left">
+            <figure><img src="../../images/login/left-img.webp" alt=""></figure>
+        </aside>
+        <aside class="right">
+            <form action="/user/login" method="POST" novalidate>
+                <div><input type="text" name="email" placeholder="enter email/mobile number" required>
+                </div>
+                <div class="forget">
+                    <input type="password" name="password" placeholder="enter password">
+                    <a href="http://localhost:5000/user/forgot">Forgot Password..?</a>
+                    {{!-- <p>Do you have account?<a href="http://localhost:5000/user/register">register</a></p> --}}
+                </div>
+                <div>
+                    <button>Login here</button>
+                </div>
+            </form>
+        </aside>
+    </article>
+    <article class="marquee">
+        <marquee behavior="scroll" direction="up" scrollAmount="2" class="">
+            <p>Login for great deals and offers</p>
+            <p>Book your first international trip</p>
+            <p>Join the club of happy travellers</p>
+        </marquee>
+
+    </article>
+</section>

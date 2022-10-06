@@ -1,0 +1,598 @@
+[{
+  "_id": {
+    "$oid": "62f0f29b2b3f38d6b018c0e4"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "8",
+  "endduration": "12",
+  "totalduration": "16",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "10",
+  "drivername": "harish",
+  "drivernumber": "9876545644",
+  "travelid": "pbm08",
+  "class1": "gold",
+  "seats": [
+    {
+      "date": "2022-08-11",
+      "seatno": [
+        "1",
+        "6"
+      ],
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-12",
+      "seatno": [
+        "2",
+        "6"
+      ],
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-11",
+      "seatno": [
+        "2",
+        "7"
+      ],
+      "useremail": "arun@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-12",
+      "seatno": [
+        "16",
+        "21"
+      ],
+      "useremail": "arun@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-13",
+      "seatno": "1",
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-13",
+      "seatno": "2",
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08"
+    },
+    {
+      "date": "2022-08-24",
+      "seatno": [
+        "1",
+        "2"
+      ],
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08",
+      "price": "20"
+    },
+    {
+      "date": "2022-08-18",
+      "seatno": [
+        "1",
+        "2"
+      ],
+      "useremail": "hari@gmail.com",
+      "seattravelid": "pbm08",
+      "price": "20"
+    },
+    {
+      "date": "2022-09-05",
+      "seatno": [
+        "1",
+        "2"
+      ],
+      "useremail": "arun@gmail.com",
+      "seattravelid": "pbm08",
+      "price": "20"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f4362b3f38d6b018c0e6"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "11",
+  "endduration": "17",
+  "totalduration": "16",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "10",
+  "drivername": "shubam",
+  "drivernumber": "6989089089",
+  "travelid": "pbm11",
+  "class1": "premium",
+  "seats": [
+    "",
+    {
+      "date": "2022-08-11",
+      "seatno": "1",
+      "useremail": "dexter@gmail.com",
+      "seattravelid": "pbm11",
+      "price": "10"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f46b2b3f38d6b018c0e8"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "22",
+  "endduration": "14",
+  "totalduration": "16",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "10",
+  "drivername": "praveen",
+  "drivernumber": "6989089080",
+  "travelid": "pbm22",
+  "class1": "premium",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f5b02b3f38d6b018c0ea"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "8",
+  "endduration": "13",
+  "totalduration": "17",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "8",
+  "drivername": "pramodha",
+  "drivernumber": "6989089012",
+  "travelid": "gbm08",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f5dc2b3f38d6b018c0ec"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "11",
+  "endduration": "18",
+  "totalduration": "17",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "8",
+  "drivername": "pavan",
+  "drivernumber": "6989089078",
+  "travelid": "gbm11",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f5f82b3f38d6b018c0ee"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "22",
+  "endduration": "15",
+  "totalduration": "17",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "8",
+  "drivername": "vijay",
+  "drivernumber": "6989089090",
+  "travelid": "gbm22",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f6ff2b3f38d6b018c0f0"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "8",
+  "endduration": "14",
+  "totalduration": "18",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "7",
+  "drivername": "vijay",
+  "drivernumber": "6989089090",
+  "travelid": "sbm08",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f7242b3f38d6b018c0f2"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "11",
+  "endduration": "19",
+  "totalduration": "18",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "7",
+  "drivername": "harish",
+  "drivernumber": "6989089056",
+  "travelid": "sbm11",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0f7612b3f38d6b018c0f4"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "22",
+  "endduration": "16",
+  "totalduration": "18",
+  "startlocation": "bangalore",
+  "endlocation": "mumbai",
+  "price": "7",
+  "drivername": "rupesh",
+  "drivernumber": "6989089085",
+  "travelid": "sbm22",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f101b52b3f38d6b018c0f6"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "8",
+  "endduration": "13",
+  "totalduration": "5",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "8",
+  "drivername": "kishore",
+  "drivernumber": "9876543211",
+  "travelid": "pbc08",
+  "class1": "premium",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f101ec2b3f38d6b018c0f8"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "11",
+  "endduration": "18",
+  "totalduration": "5",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "8",
+  "drivername": "surya",
+  "drivernumber": "8765432199",
+  "travelid": "pbc11",
+  "class1": "premium",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f1021a2b3f38d6b018c0fa"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "21",
+  "endduration": "14",
+  "totalduration": "5",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "8",
+  "drivername": "kumar",
+  "drivernumber": "7654321987",
+  "travelid": "pbc21",
+  "class1": "premium",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f103862b3f38d6b018c0fc"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "8",
+  "endduration": "14",
+  "totalduration": "6",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "6",
+  "drivername": "rathan",
+  "drivernumber": "6543219876",
+  "travelid": "gbc08",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f103c12b3f38d6b018c0fe"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "11",
+  "endduration": "19",
+  "totalduration": "6",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "6",
+  "drivername": "santhosh",
+  "drivernumber": "9876543217",
+  "travelid": "gbc11",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f104122b3f38d6b018c100"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "21",
+  "endduration": "15",
+  "totalduration": "6",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "6",
+  "drivername": "karthik",
+  "drivernumber": "876543217",
+  "travelid": "gbc21",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f105152b3f38d6b018c102"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "8",
+  "endduration": "14",
+  "totalduration": "6",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "5",
+  "drivername": "sriranga",
+  "drivernumber": "9876543217",
+  "travelid": "sbc08",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f1054c2b3f38d6b018c104"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "11",
+  "endduration": "19",
+  "totalduration": "6",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "5",
+  "drivername": "arun",
+  "drivernumber": "9876543214",
+  "travelid": "sbc11",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f1060d2b3f38d6b018c106"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "21",
+  "endduration": "15",
+  "totalduration": "6",
+  "startlocation": "bangalore",
+  "endlocation": "chennai",
+  "price": "5",
+  "drivername": "vinay",
+  "drivernumber": "876543216",
+  "travelid": "sbc21",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f108912b3f38d6b018c108"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "8",
+  "endduration": "17",
+  "totalduration": "9",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "8",
+  "drivername": "prashanth",
+  "drivernumber": "8745612397",
+  "travelid": "pbh08",
+  "class1": "premium",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f109552b3f38d6b018c10a"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "11",
+  "endduration": "20",
+  "totalduration": "9",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "8",
+  "drivername": "sourabh",
+  "drivernumber": "6543217895",
+  "travelid": "pbh11",
+  "class1": "premium",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f109ff2b3f38d6b018c10c"
+  },
+  "busname": "volvo ac multi axle semi-sleeper",
+  "startduration": "21",
+  "endduration": "6",
+  "totalduration": "9",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "8",
+  "drivername": "lynn",
+  "drivernumber": "6547891239",
+  "travelid": "pbh21",
+  "class1": "premium",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f10af82b3f38d6b018c110"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "8",
+  "endduration": "18",
+  "totalduration": "10",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "6",
+  "drivername": "vinay",
+  "drivernumber": "9876543215",
+  "travelid": "gbh08",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f10b272b3f38d6b018c112"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "11",
+  "endduration": "21",
+  "totalduration": "10",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "6",
+  "drivername": "praveen",
+  "drivernumber": "8756321489",
+  "travelid": "gbh11",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f10b6a2b3f38d6b018c114"
+  },
+  "busname": "volvo ac semi-sleeper",
+  "startduration": "21",
+  "endduration": "7",
+  "totalduration": "10",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "6",
+  "drivername": "pavan",
+  "drivernumber": "5623417896",
+  "travelid": "gbh21",
+  "class1": "gold",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f10bc72b3f38d6b018c116"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "8",
+  "endduration": "18",
+  "totalduration": "10",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "5",
+  "drivername": "suresh",
+  "drivernumber": "7894561235",
+  "travelid": "sbh08",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f10bee2b3f38d6b018c118"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "11",
+  "endduration": "21",
+  "totalduration": "10",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "5",
+  "drivername": "mahesh",
+  "drivernumber": "7894561235",
+  "travelid": "sbh11",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f10c1f2b3f38d6b018c11a"
+  },
+  "busname": "volvo non-ac semi-sleeper",
+  "startduration": "21",
+  "endduration": "7",
+  "totalduration": "10",
+  "startlocation": "bangalore",
+  "endlocation": "hyderabhad",
+  "price": "5",
+  "drivername": "punneth",
+  "drivernumber": "5647891235",
+  "travelid": "sbh21",
+  "class1": "silver",
+  "seats": [
+    ""
+  ],
+  "__v": 0
+}]

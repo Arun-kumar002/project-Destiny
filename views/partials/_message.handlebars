@@ -1,0 +1,15 @@
+{{#if SUCCESS_MESSAGE}}
+<h1 class="alert alert-success">{{SUCCESS_MESSAGE}}</h1>
+{{/if}}
+{{#if ERROR_MESSAGE}}
+<h1 class="alert alert-error">{{ERROR_MESSAGE}}</h1>
+{{/if}}
+{{#if success}}
+<h1 class="alert alert-success">{{success}}</h1>
+{{/if}}
+{{#each alert}}
+<h1 class="alertval alert-error">Enter Valid {{msg}}</h1>
+{{/each}}
+{{#if errors}}
+<h1 class="alert alert-info">{{text}}</h1>
+{{/if}}

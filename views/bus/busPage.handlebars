@@ -1,0 +1,112 @@
+<section class="bookingPage">
+    <article>
+        <p> Book Bus Tickets</p>
+        <form action="/bus/filterPage" method="post">
+            <div>
+                <input type="text" name="from" value='{{from_to.from}}' placeholder="Leaving from">
+            </div>
+            <div>
+                <input type="text" name="to" value='{{from_to.to}}' placeholder="Going to ">
+            </div>
+            <div>
+                <input type="date" name="date" min="2022-08-12" value='{{from_to.date}}' placeholder="Date of Journey">
+            </div>
+
+            <div class="filter1">
+
+                <label for="time">Time Preference:</label>
+                <select id="time" name="time">
+                    <option value=""></option>
+                    <option value="12">AM</option>
+                    <option value="13">PM</option>
+                </select>
+            </div>
+
+            <div class="filter3">
+                <label for="time">Select Class:</label>
+                <select id="time" name="classs">
+                    <option value=''></option>
+                    <option value="premium">Premium Class</option>
+                    <option value="gold">Gold Class</option>
+                    <option value="silver">Silver Class</option>
+                </select>
+            </div>
+
+
+            <button>Search</button>
+        </form>
+    </article>
+</section>
+
+<section id="buspage">
+    <article>
+        <aside>
+            <div>
+
+            </div>
+        </aside>
+        <main>
+            {{#each busDetails}}
+            <form action="/bus/buspage/{{travelid}}" method="post" id="busform">
+                <div class="busname">
+                    <h6>{{busname}}</h6>
+                    <p>{{class1}} class</p>
+                </div>
+
+                <div class="startduration">
+                    <h5>{{startduration}}:00</h5>
+                    <p>{{startlocation}}</p>
+                </div>
+
+                <div class="centerbar">
+                    <p>--></p>
+                    <p>{{totalduration}} hrs</p>
+                </div>
+
+                <div class="startduration">
+                    <h5>{{endduration}}:00</h5>
+                    <p>{{endlocation}}</p>
+                </div>
+
+                <div class="price">
+                    <p>Starting from</p>
+                    <h5>INR {{price}}/-</h5>
+                </div>
+
+                <button>Select Seats</button>
+                <ul>
+                    <li>
+                        Please confirm your date:
+                        <input type="date" name='date' placeholder="Enter the date" min="2022-08-09" />
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+
+                    <li>Amenities : </li>
+                    <li> <i class="fa-solid fa-wifi"></i></li>
+                    <li> <i class="fa-solid fa-plug-circle-bolt"></i></li>
+                    <li> <i class="fa-solid fa-tv"></i></li>
+                    <li> <i class="fa-solid fa-bottle-water"></i></li>
+                    <li> <i class="fa-solid fa-mattress-pillow"></i></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li> One Rest Point</li>
+                </ul>
+            </form>
+
+
+            {{/each}}
+
+
+
+
+
+        </main>
+    </article>
+</section>

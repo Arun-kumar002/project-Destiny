@@ -1,0 +1,498 @@
+:root {
+    --bg-color: #fff;
+    --font-color: #333;
+    --nav-background: #316879;
+    --color-1: #f47a60;
+    --color-2: #7fe7dc;
+}
+
+/* !bookig page section starts here */
+.bookingPage {
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid black; */
+    background-image: url("https://static.abhibus.com/img/abhilogos/bus-seach-bg-new-v3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bookingPage article {
+    width: 80%;
+    height: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bookingPage article p {
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.bookingPage article form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookingPage article form input {
+    padding: 10px 30px;
+}
+
+.bookingPage article form button {
+    padding: 10px 50px;
+    background-color: #316879;
+    color: white;
+    border: 1px solid #316879;
+    outline: 3px solid #316879;
+    cursor: pointer;
+}
+
+.filter1 {
+    position: absolute;
+    top: 610px;
+    left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    background-color: white;
+    /* font-weight: 400; */
+}
+
+.filter1:hover {
+    background-color: lightcoral;
+    box-shadow: 0px 2px 6px 2px #ccc;
+    color: white;
+}
+
+.filter1>select {
+    padding: 3px 20px;
+    color: lightcoral;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.filter3>select {
+    padding: 3px 2px;
+    color: lightcoral;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+
+}
+
+.filter1>select:hover {
+    background-color: white;
+    color: #222;
+}
+
+.filter3 {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    color: #222;
+    background-color: white;
+
+}
+
+.filter3:hover {
+    background-color: lightcoral;
+    box-shadow: 0px 2px 6px 2px #ccc;
+    color: white;
+}
+
+
+
+.filter3>select:hover {
+    background-color: white;
+    color: #222;
+}
+
+/*! booking page section ends here */
+
+
+
+/* !bus UI page section starts here */
+
+#buspage {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+
+#buspage article {
+    width: 98%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#buspage>article>aside {
+    width: 20%;
+    height: 40vh;
+    /* border: 1px solid black; */
+    padding: 23px;
+
+}
+
+#buspage>article>aside>div {
+    width: 100%;
+    height: 90%;
+    border: 1px solid #bbb;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+
+#buspage>article>aside>div:hover {
+    background-color: white;
+}
+
+#buspage>article>main {
+    width: 80%;
+    height: 100vh;
+    padding: 23px;
+}
+
+#buspage>article>main>form {
+    border: 1px solid #bbb;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#buspage>article>main>form:hover {
+    box-shadow: 0px 2px 6px 2px #ccc;
+    transition: all ease 0.8s;
+}
+
+#buspage>article>main>form:hover button {
+    background-color: #316879;
+    color: white;
+    border: 1px solid #316879;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+#buspage>article>main>form>div {
+    width: 15%;
+    /* border: 1px solid black; */
+    height: 40%;
+}
+
+#buspage>article>main>form>.busname {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+}
+
+#buspage>article>main>form>.busname>h6 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #333;
+
+}
+
+#buspage>article>main>form>.busname>p {
+    font-size: 18px;
+    /* color: crimson; */
+    text-transform: capitalize;
+    /* border: 1px solid black; */
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: #333;
+}
+
+
+#buspage>article>main>form>.startduration {
+    width: 15%;
+    height: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+#buspage>article>main>form>.startduration h5 {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #222;
+}
+
+#buspage>article>main>form>.startduration p {
+    text-align: center;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 300;
+}
+
+
+#buspage>article>main>form>.centerbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#buspage>article>main>form>.centerbar p {
+    font-weight: 400;
+}
+
+#buspage>article>main>form>.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#buspage>article>main>form>.price>p {
+    color: #666;
+    font-size: 15px;
+}
+
+#buspage>article>main>form>.price>h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#buspage>article>main>form>button {
+    padding: 10px 8px;
+    background-color: white;
+    border-radius: 10px;
+    color: #316879;
+    border: 1px solid #316879;
+    /* outline: 3px solid #316879; */
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#buspage>article>main>form>button:hover {
+    background-color: #316879;
+    color: white;
+    border: 1px solid #316879;
+}
+
+#buspage>article>main>form>ul {
+    width: 100%;
+    /* margin-left: 50%; */
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+/*! bus UI page section ends here */
+
+
+
+
+/* !Seat Matrix page section starts here */
+
+#busmatrix {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+#busmatrix article {
+    width: 95%;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+#busmatrix article aside {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#busmatrix article aside header {
+    width: 80%;
+    height: 30%;
+    border: 1px solid #bbb;
+    box-shadow: 0px 0px 5px 2px #bbb;
+}
+
+#busmatrix article aside header img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#busmatrix article aside>form {
+    width: 80%;
+    height: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#busmatrix article aside>form>div {
+    width: 70%;
+    height: 70%;
+    border: 2px solid #555;
+    border-left: 10px solid #316879;
+    border-radius: 5px;
+    display: flex;
+}
+
+#busmatrix article aside>form>div>aside {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+#busmatrix article aside>form>div>aside>ion-icon {
+    font-size: 25px;
+    color: #888;
+}
+
+
+#busmatrix article aside>form>div>main {
+    width: 90%;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+}
+
+#busmatrix article aside>form>div>main>label {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border: 1px solid #999;
+    background-color: whitesmoke;
+    color: #666;
+    cursor: pointer;
+}
+
+#busmatrix article aside>form>div>main>input {
+    display: none;
+}
+
+
+#busmatrix>article>main {
+    width: 30%;
+    height: 100%;
+    border: 1px solid #222;
+    padding: 20px;
+}
+
+#busmatrix>article>main>h1 {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#busmatrix>article>main>button {
+    padding: 10px;
+    margin: 20px 100px;
+    width: 50%;
+}
+
+#seat {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black;r */
+    height: 90%;
+    align-items: center;
+}
+
+.hideinput {
+    display: none;
+}
+
+.onebuscentre {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.terms {
+    border: 1px solid black;
+}
+
+#busmatrix>article>main>footer {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+#busmatrix>article>main>footer>h1 {
+    margin-top: 20px;
+}
+
+#busmatrix>article>main>footer>ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+/* !Seat Matrix page section ends here */
