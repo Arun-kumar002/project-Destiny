@@ -50,7 +50,7 @@ app.use(fileuploader({
 app.use(methodOverride('_method'))
 
 app.use(session({
-    secret: "pavan",
+    secret: "destiny",
     resave: true,
     saveUninitialized: false,
 }));
