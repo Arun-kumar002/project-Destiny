@@ -27,20 +27,12 @@ cloudinary.config({
     api_key: "599739858235545",
     api_secret: "yuRCYXH5m1-dAf6uIRfmwIokXn0"
   })
-
-
-
-const http = require('http')
-const fs = require('fs')
-
-const app = express()
-
-
 // api keys
 const publish_key = 'pk_test_51LVJtgIg8SEJxmbxcxeL1cggTJsRQBXiwec3Qb9g0w3KOj659vzTIG2GNDCaOVM9NBYwc4kgOkIwBnchpfcEnmR700KyIxkVQf';
 const secret_key = 'sk_test_51LVJtgIg8SEJxmbxFzBBRf2t2lOce6ynFIwCUQKDuPLHXota9jz2va13UgrqOUaFW7ef4eoq9XjvfYNPnzHMecwT00Dg6TtYPU';
 const stripe = require("stripe")(secret_key)
 
+const app = express()
 //middleware section starts here
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))
